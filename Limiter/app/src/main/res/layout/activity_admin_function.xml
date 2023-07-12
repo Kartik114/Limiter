@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminFunction.AdminMainActivity">
+
+    <ImageView
+        android:id="@+id/adl"
+        android:layout_width="394.94dp"
+        android:layout_height="178.6dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/parking_car"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdminDisplay"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+
+        android:backgroundTint="@color/blue"
+        android:padding="3dp"
+        android:text="Display Parking"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adl"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <Button
+        android:id="@+id/btnAddSlot"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:padding="3dp"
+        android:backgroundTint="@color/blue"
+        android:text="Add slot"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdminDisplay"
+
+        />
+    <Button
+        android:id="@+id/btnSetMaxTime"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:padding="3dp"
+        android:backgroundTint="@color/blue"
+        android:text="Set max time"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddSlot"
+        android:layout_margin="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnEditFaq"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_margin="15px"
+        android:backgroundTint="@color/blue"
+        android:padding="3dp"
+        android:text="EDIT FAQ"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSetMaxTime"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
